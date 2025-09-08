@@ -1,3 +1,41 @@
-fastapi==0.104.1
-uvicorn==0.24.0
-requests==2.31.0
+# For the MCP Host & Specialist Agents (Servers)
+fastapi
+uvicorn
+httpx
+twilio
+vosk
+python-dotenv
+
+# For the LangChain and LLM Logic
+langchain
+langchain-google-genai
+
+# For the Streamlit Dashboard (UI)
+streamlit
+requests
+streamlit-audiorecorder
+
+googlemaps 
+
+vaderSentiment
+
+# Core Backend, Communication, and Agent Framework
+fastapi
+uvicorn[standard]
+httpx
+python-dotenv
+langchain
+langchain-google-genai
+
+# AI & Data Service Libraries
+google-generativeai
+googlemaps
+google-cloud-language
+vosk
+vaderSentiment
+
+# Real-World Action & Frontend
+twilio
+streamlit
+streamlit-audiorecorder
+requests

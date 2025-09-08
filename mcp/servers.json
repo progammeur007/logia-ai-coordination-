@@ -1,0 +1,19 @@
+[
+  {
+    "name": "SafetyServer",
+    "address": "http://localhost:8001",
+    "enabled": true
+  },
+  {
+    "name": "FoodDelayServer",
+    "address": "http://localhost:8002",
+    "enabled": true
+  },
+
+
+{
+  "name": "ReroutingServer",
+  "address": "http://localhost:8003",
+  "enabled": true
+}
+]

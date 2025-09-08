@@ -1,0 +1,36 @@
+{
+  "restaurants": {
+    "REST-01": {"name": "Spicy Noodle House", "location": -8, "prep_time_mins": 45, "status": "Overloaded"},
+    "REST-02": {"name": "Pizza Palace", "location": -6, "prep_time_mins": 15, "status": "Normal"},
+    "REST-03": {"name": "Burger Barn", "location": -5, "prep_time_mins": 20, "status": "Normal"},
+    "REST-04": {"name": "Sushi Spot", "location": -2, "prep_time_mins": 50, "status": "Overloaded"},
+    "REST-05": {"name": "Taco Town", "location": 0, "prep_time_mins": 15, "status": "Normal"},
+    "REST-06": {"name": "Salad Central", "location": 1, "prep_time_mins": 10, "status": "Normal"},
+    "REST-07": {"name": "Dragon Noodle Bar", "location": 3, "prep_time_mins": 18, "status": "Normal"},
+    "REST-08": {"name": "The Curry Leaf", "location": 5, "prep_time_mins": 25, "status": "Normal"},
+    "REST-09": {"name": "Quick Wok", "location": 7, "prep_time_mins": 55, "status": "Overloaded"},
+    "REST-10": {"name": "The Sandwich Stop", "location": 9, "prep_time_mins": 12, "status": "Normal"}
+  },
+  "orders": {
+    "ORD-123": {
+      "merchant_id": "REST-01",
+      "driver_id": "DRIV-789",
+      "status": "Driver en route to merchant"
+    },
+    "ORD-124": {
+      "merchant_id": "REST-03",
+      "driver_id": "DRIV-790",
+      "status": "Driver en route to merchant"
+    },
+    "ORD-125": {
+        "merchant_id": "REST-06",
+        "driver_id": "DRIV-791",
+        "status": "Driver en route to merchant"
+    }
+  },
+  "drivers": {
+    "DRIV-789": { "current_location": -7 },
+    "DRIV-790": { "current_location": -4 },
+    "DRIV-791": { "current_location": 2 }
+  }
+}
